@@ -1,19 +1,7 @@
 # CHAT-APP
-run these commands in terminal:
-"# pip install Flask"
-"# pip install flask-socketio"
-
-then run code using:
-python main.py
-
-# CHAT-APP
 
 Connect Instantly. Communicate Limitlessly. Empower Collaboration.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/your-repo/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo.svg?style=social)](https://github.com/your-username/your-repo/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/your-repo.svg?style=social)](https://github.com/your-username/your-repo/network)
-[![Twitter Follow](https://img.shields.io/twitter/follow/your-twitter-handle?style=social)](https://twitter.com/your-twitter-handle)
 
 
 ## Table of Contents
@@ -23,7 +11,6 @@ Connect Instantly. Communicate Limitlessly. Empower Collaboration.
     * [Prerequisites](#prerequisites)
     * [Installation](#installation)
     * [Usage](#usage)
-    * [Testing](#testing)
 
 ## Overview
 
@@ -48,6 +35,7 @@ These instructions will get you a copy of the project up and running on your loc
 This project requires the following dependencies:
 
 * **Programming Language**: Python3 (specifically 3.8+)
+* **Libraries**: Flask
 
 ### Installation
 
@@ -56,7 +44,7 @@ Build CHAT-APP from the source and install dependencies:
 1.  **Clone the repository**:
 
     ```bash
-    git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
+    git clone [https://github.com/vamsi2995/CHAT-APP.git](https://github.com/vamsi2995/CHAT-APP.git)
     ```
 
 2.  **Navigate to the project directory**:
@@ -68,8 +56,8 @@ Build CHAT-APP from the source and install dependencies:
 3.  **Install the dependencies**:
 
     ```bash
-    # Replace this with your actual installation command, e.g., pip install -r requirements.txt
-    pip install -r requirements.txt
+    pip install Flask
+    pip install flask-socketio
     ```
 
 ### Usage
@@ -77,14 +65,6 @@ Build CHAT-APP from the source and install dependencies:
 To run the project:
 
 ```bash
-# Replace this with your actual run command, e.g., python app.py
-python app.py
+python main.py
 ```
 
-### Testing
-
-Instructions on how to run automated tests for the system:
-
-```bash
-# Replace this with your actual testing command, e.g., pytest
-pytest
