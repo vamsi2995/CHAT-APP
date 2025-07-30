@@ -16,6 +16,9 @@ Connect Instantly. Communicate Limitlessly. Empower Collaboration.
 
 CHAT-APP is a developer-friendly framework designed to facilitate real-time chat functionality, notifications, and collaboration. It leverages secure WebSocket connections to allow seamless message exchange through WebSocket transmissions, enabling dynamic, multi-user communication.
 
+[![Live Site](https://img.shields.io/badge/Visit%20Site-Chat%20App-blue?style=for-the-badge)](https://chat-app-3muv.onrender.com)
+
+
 ### Why CHAT-APP?
 
 This project simplifies the development of interactive chat systems by providing a robust backend and flexible frontend components. The core features include:
@@ -56,8 +59,7 @@ Build CHAT-APP from the source and install dependencies:
 3.  **Install the dependencies**:
 
     ```bash
-    pip install Flask
-    pip install flask-socketio
+    pip install -r requirements.txt
     ```
 
 ### Usage
